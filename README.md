@@ -4,7 +4,7 @@ GCN 4 architecture or newer (RX 400/500 series and above)
 
 **Installation:**
 
-copy mesafhs in /usr, mesa-amd in /bin, radeon_icd.x86_64.json in /usr/share/vulkan/icd.d If such a file exists, simply overwrite it.
+copy mesafhs dir in /usr, mesa-amd in /bin, radeon_icd.x86_64.json in /usr/share/vulkan/icd.d If such a file exists, simply overwrite it.
 
 
 **How to use:**
