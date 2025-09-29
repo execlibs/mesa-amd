@@ -2,7 +2,7 @@
 
 GCN 4 (RX 400/500) or higher
 
-**Installition:**
+**Installation:**
 
 copy mesafhs in /usr and mesa-amd in /bin
 
