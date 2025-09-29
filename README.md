@@ -26,7 +26,7 @@ Obviously, if you are using an Intel or Nvidia graphics card, you will get a bla
 
 As a workaround, you can use only vulkan driver (libvulkan_radeon.so)
 
-**commandline build options:**
+**Compilation parameters:**
 
 meson setup -D b_ndebug=true -D microsoft-clc=disabled -D gbm=enabled -D gles2=enabled -D egl=enabled -D android-libbacktrace=disabled -Dbuildtype=release -D b_lto=false -Dprefix=/usr/mesafhs -D llvm=false
 and meson.options file
