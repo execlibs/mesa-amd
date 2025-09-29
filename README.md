@@ -1,6 +1,6 @@
 **Supported gpus:**
 
-GCN 4 (RX 400/500) or higher
+GCN 4 architecture or newer (RX 400/500 series and above)
 
 **Installation:**
 
