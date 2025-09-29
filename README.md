@@ -1,0 +1,27 @@
+**Supported gpus:**
+
+GCN 4 (RX 400/500) or higher
+
+**Installition:**
+
+copy mesafhs in /usr and mesa-amd in /bin
+
+
+**How to use:**
+There are two general ways to use it.
+
+For simple use, you can run the mesa-amd script to launch programs.
+For example: mesa-amd wine64 explorer.
+
+If you want to permanently install libraries, you can copy zzZ_mesa-amd.conf to /etc/ld.so.conf.d and then enter ldconfig in the terminal. This will allow ld.so to overwrite libraries when called, without affecting the system.
+
+**Minimum requirements for running:**
+
+All dependencies are the same as in Debian 13, except for libllvm19. It turned out to be unnecessary when building for recent AMD graphics cards.
+
+---
+**possible errors:**
+
+Obviously, if you are using an Intel or Nvidia graphics card, you will get a black screen when rebooting.
+
+As a workaround, you can use only vulkan driver (libvulkan_radeon.so)
