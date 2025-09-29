@@ -22,9 +22,9 @@ All dependencies are the same as in Debian 13, except for libllvm19. It turned o
 ---
 **possible errors:**
 
-Obviously, if you are using an Intel or Nvidia graphics card, you will get a black screen when rebooting.
+Obviously, if you are using an Intel or Nvidia discrete graphics card, you will get a black screen when rebooting.
 
-As a workaround, you can use only vulkan driver (libvulkan_radeon.so)
+If you have hybrid graphics, you can use only vulkan driver (libvulkan_radeon.so)
 
 **Compilation parameters:**
 
