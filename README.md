@@ -4,7 +4,7 @@ GCN 4 architecture or newer (RX 400/500 series and above)
 
 **Installation:**
 
-extract "mesafhs" dir to any place
+extract mesafhs and mesa-amd to any place
 
 
 **How to use:**
