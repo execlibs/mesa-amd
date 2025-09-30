@@ -4,7 +4,7 @@ x86-64
 
 **Supported gpus:**
 
-GCN 4 architecture or newer (RX 400/500 series and above)
+GCN 4 or newer (RX 400/500 series and above)
 
 **Installation:**
 
