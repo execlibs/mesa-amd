@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo mesa-version=25.2.3-amd
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <program> [args...]"
+    exit 1
+fi
+
+export LD_LIBRARY_PATH="./mesafhs/lib/x86_64-linux-gnu:./mesafhs/lib/x86_64-linux-gnu/dri:./mesafhs/lib/x86_64-linux-gnu/gbm:$LD_LIBRARY_PATH"
+
+exec "$@"
