@@ -16,7 +16,7 @@ extract mesafhs and mesa-amd to any place
 For simple use, you can run the mesa-amd script to launch programs.
 For example: /path/to/mesa-amd glxdemo.
 
-If you want to permanently install libraries, you can download "system" package and replace libs in /usr/lib/x86_64-linux-gnu
+If you want to install the libraries permanently, you can download the "system" package and unzip it into the root folder, replacing all directories and files.
 
 **Minimum requirements for running:**
 
